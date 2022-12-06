@@ -1,18 +1,18 @@
-import CardWidget from "../components/CardWidget";
 const NavBar = () =>{
     return (
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <button class="nav-link active">INICIO</button>
-            </li>
-            <li class="nav-item">
-                <button class="nav-link">TIENDA</button>
-            </li>
-            <li class="nav-item">
-                <button class="nav-link">SOBRE NOSOTROS</button>
-            </li>
-            <CardWidget/>
-        </ul>
+        <div className="navBar">
+            <ul className="navBar__ul">
+                <li className="navBar__ul__li">
+                    <a href=" ">INICIO</a>
+                </li>
+                <li className="navBar__ul__li">
+                    <a href="../tienda.html">TIENDA</a>
+                </li>
+                <li className="navBar__ul__li">
+                    <a href="../sobreNosotros.html">SOBRE NOSOTROS</a>
+                </li>
+            </ul>
+        </div>
     )
 }
 
