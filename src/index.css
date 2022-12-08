@@ -7,6 +7,9 @@
     vertical-align:baseline;
     background:transparent;
 }
+li{
+    list-style:none;
+}
 .navBar__ul{
     display: flex;
     list-style: none;
@@ -32,4 +35,37 @@
 }
 .caler{
     background-color: yellow;
+}
+.tituloTienda{
+    text-align: center;
+}
+.divCategorias{
+    width: 35%;
+    text-align: center;
+    border-right: 1px solid black;
+    border-top: 1px solid black ;
+    margin-top: 15%;
+}
+.tamañoCard{
+    width: 23%;
+    text-align: center;
+    margin: auto;
+}
+.divTienda{
+    display: flex;
+}
+.productos{
+    display: flex;
+}
+.terrariaGame{
+    display: flex;
+}
+.buttonTerraria{
+    background-color: aqua;
+    border-radius: 12px;
+    padding: 8px;
+    margin-left: 20px;
+}
+.sectionPrice{
+    text-align: center;
 }
