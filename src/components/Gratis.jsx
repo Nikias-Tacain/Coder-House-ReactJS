@@ -1,4 +1,4 @@
-import Categorias from "./Categorias"
+import Categorias from "./Category"
 let Gratis = () => {
     return(
         <div>

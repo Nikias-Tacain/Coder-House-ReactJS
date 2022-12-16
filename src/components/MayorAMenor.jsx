@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import Categorias from "./Categorias"
+import Category from "./Category"
 let MayorAMenor = () =>{
     return(
         <div>
             <div className="divTienda">
-                <Categorias />
+                <Category />
                 <h6>Filtro aplicado: Mayor a Menor</h6>
                 <div className="productos">
                     <div className="card tamañoCard">
@@ -21,7 +21,7 @@ let MayorAMenor = () =>{
                             <h5 class="card-title">Terraria</h5>
                             <p class="card-text">Terraria es un videojuego de acción y aventura producido por el estudio Re-Logic.</p>
                             <p>$999</p>
-                            <Link to={"/tienda/categorias/MayorAMenor/detalle/terrariaGame"}>Ver👁️</Link>
+                            <Link to={"/tienda/category/MayorAMenor/detalle/terrariaGame"}>Ver👁️</Link>
                         </div>
                     </div>
                     <div className="card tamañoCard">

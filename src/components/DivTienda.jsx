@@ -1,10 +1,10 @@
-import Categorias from "./Categorias"
+import Category from "./Category";
 import Productos from "./Productos"
 
 let DivTienda= () =>{
     return(
         <div className="divTienda">
-            <Categorias />
+            <Category />
             <Productos />
         </div>
     )

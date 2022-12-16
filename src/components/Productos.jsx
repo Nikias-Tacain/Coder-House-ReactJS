@@ -9,7 +9,7 @@ let Productos = () => {
                     <h5 class="card-title">Terraria</h5>
                     <p class="card-text">Terraria es un videojuego de acción y aventura producido por el estudio Re-Logic.</p>
                     <p>$999</p>
-                    <Link to={"/tienda/detalle/terrariaGame"}>Ver👁️</Link>
+                    <Link to={"/tienda/item/Terraria"}>Ver👁️</Link>
                 </div>
             </div>
             <div className="card tamañoCard">
