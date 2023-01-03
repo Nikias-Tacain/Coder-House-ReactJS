@@ -1,11 +1,10 @@
-import Category from "./Category";
-import Productos from "./Productos"
+import ProductList from "./ProductList";
+
 
 let DivTienda= () =>{
     return(
         <div className="divTienda">
-            <Category />
-            <Productos />
+            <ProductList />
         </div>
     )
 }
